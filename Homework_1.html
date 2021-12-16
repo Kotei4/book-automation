@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Work #1</title>
+</head>
+<body>
+	<div id ="Repka"></div>
+		<script>
+			let granpa = ['Дед','Дедка','Дедку'];
+			let granma = ['Бабка','Бабку'];
+			let grandchild = ['Внучка','Внучку'];
+			let dog = ['Жучка','Жучку'];
+			let cat = ['Кошка','Кошку'];
+			let rat = ['Мышка','Мышку'];
+			let turnip = ["Репка","Репку"];
+const text = `
+<p>Посадил ${granpa[0]} ${turnip[1]} и говорит:</p>
+<p></p>
+<p>— Расти, расти, репка, сладка! Расти, расти, репка, крепка!</p>
+<p></p>
+<p>Выросла репка сладка, крепка, большая-пребольшая.</p>
+<p></p>
+<p>Пошел ${granpa[0]} ${turnip[1]} рвать: тянет-потянет, вытянуть не может.</p>
+<p></p>
+<p>Позвал ${granpa[0]}, ${granma[1]}.</p>
+<p></p>
+<p>${granma[0]} за ${granpa[2]},</p>
+<p>${granpa[1]} за ${turnip[1]} —</p>
+<p></p>
+<p>Тянут-потянут, вытянуть не могут.</p>
+<p></p>
+<p>Позвала ${granma[0]} ${grandchild[1]}.</p>
+<p></p>
+<p>${grandchild[0]} за ${granma[1]},</p>
+<p>${granma[0]} за ${granpa[2]},</p>
+<p></p>
+<p>${granpa[1]} за ${turnip[1]} —</p>
+<p></p>
+<p>Тянут-потянут, вытянуть не могут.</p>
+<p></p>
+<p>Позвала ${grandchild[0]} ${dog[1]}.</p>
+<p></p>
+<p>${dog[0]} за ${grandchild[1]},</p>
+<p>${grandchild[0]} за ${granma[1]},</p>
+<p></p>
+<p>${granma[0]} за ${granpa[2]}
+<p>${granpa[1]} за ${turnip[1]} —</p>
+<p></p>
+<p>Тянут-потянут, вытянуть не могут.</p>
+<p></p>
+<p>Позвала ${dog[0]} ${cat[1]}.</p>
+<p></p>
+<p>${cat[0]} за ${dog[1]},</p>
+<p>${dog[0]} за ${grandchild[1]},</p>
+<p></p>
+<p>${grandchild[0]} за ${granma[1]},</p>
+<p></p>
+<p>${granma[0]} за ${granpa[2]},</p>
+<p></p>
+<p>${granpa[1]} за ${turnip[1]} —</p>
+<p></p>
+<p>Тянут-потянут, вытянуть не могут.</p>
+<p></p>
+<p>Позвала ${cat[0]} ${rat[1]}.</p>
+<p></p>
+<p>Мышка за ${cat[1]},</p>
+<p>${cat[0]} за ${dog[1]},</p>
+<p></p>
+<p>${dog[0]} за ${grandchild[1]},</p>
+<p></p>
+<p>${grandchild[0]} за ${granma[1]},</p>
+<p></p>
+<p>${granma[0]} за ${granpa[2]},</p>
+<p></p>
+<p>${granpa[1]} за ${turnip[1]} —</p>
+<p></p>
+<p>Тянут-потянут — и вытянули ${turnip[1]}.</p>
+    `;
+		document.getElementById('Repka').innerHTML = text;
+		</script>
+
+</body>
+</html>
